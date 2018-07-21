@@ -114,14 +114,14 @@ if (movieTitle) {
 
     nodeArgs = "\n";
     if (!movieError && movieResponse.statusCode === 200 && movieFound === "true") {
-      console.log("Movie Title            : " + JSON.parse(movieBody).Title);
-      console.log("Year                   : " + JSON.parse(movieBody).Year);
-      console.log("IMDB Rating            : " + JSON.parse(movieBody).imdbRating);
-      console.log("Rotten Tomatoes Rating : " + JSON.parse(movieBody).Ratings[1].Value);
-      console.log("Country                : " + JSON.parse(movieBody).Country);
-      console.log("Language               : " + JSON.parse(movieBody).Language);
-      console.log("Plot                   : " + JSON.parse(movieBody).Plot);
-      console.log("Cast                   : " + JSON.parse(movieBody).Actors);
+      console.log("Movie Title      : " + JSON.parse(movieBody).Title);
+      console.log("Year             : " + JSON.parse(movieBody).Year);
+      console.log("IMDB Rating      : " + JSON.parse(movieBody).imdbRating);
+      console.log("Rotten Tomatoes  : " + JSON.parse(movieBody).Ratings[1].Value);
+      console.log("Country          : " + JSON.parse(movieBody).Country);
+      console.log("Language         : " + JSON.parse(movieBody).Language);
+      console.log("Plot             : " + JSON.parse(movieBody).Plot);
+      console.log("Cast             : " + JSON.parse(movieBody).Actors);
 
     } else {
       console.log(JSON.parse(movieBody));
@@ -140,14 +140,14 @@ else {
 
     nodeArgs = "\n";
     if (!movieError && movieResponse.statusCode === 200 && movieFound === "true") {
-      console.log("Movie Title            : " + JSON.parse(movieBody).Title);
-      console.log("Year                   : " + JSON.parse(movieBody).Year);
-      console.log("IMDB Rating            : " + JSON.parse(movieBody).imdbRating);
-      console.log("Rotten Tomatoes Rating : " + JSON.parse(movieBody).Ratings[1].Value);
-      console.log("Country                : " + JSON.parse(movieBody).Country);
-      console.log("Language               : " + JSON.parse(movieBody).Language);
-      console.log("Plot                   : " + JSON.parse(movieBody).Plot);
-      console.log("Cast                   : " + JSON.parse(movieBody).Actors);
+      console.log("Movie Title      : " + JSON.parse(movieBody).Title);
+      console.log("Year             : " + JSON.parse(movieBody).Year);
+      console.log("IMDB Rating      : " + JSON.parse(movieBody).imdbRating);
+      console.log("Rotten Tomatoes  : " + JSON.parse(movieBody).Ratings[1].Value);
+      console.log("Country          : " + JSON.parse(movieBody).Country);
+      console.log("Language         : " + JSON.parse(movieBody).Language);
+      console.log("Plot             : " + JSON.parse(movieBody).Plot);
+      console.log("Cast             : " + JSON.parse(movieBody).Actors);
     };
   });
 }
