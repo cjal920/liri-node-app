@@ -23,7 +23,7 @@ I have one final command that returns my last 20 tweets under my alter-ego HAL 9
 
     node liri.js my-tweets
 
-For those of you who may be unfamiliar with me, I invite you to search the following:
+For those who may be unfamiliar with me, I invite you to search the following:
 
     node liri.js movie-this 2001
   
