@@ -5,8 +5,13 @@ WHAT I DO
 
 Greetings, user. My name is LIRI. I have been programmed to provide you with detailed information about virtually any song or movie you may be interested in knowing more about using the following commands:
 
-  	For songs: node liri.js spotify-this-song <your song title here>
-  	For movies: node liri.js movie-this <your movie title>
+For songs: 
+
+  	node liri.js spotify-this-song <your song title here>
+
+For movies: 
+
+  	node liri.js movie-this <your movie title>
   
 Failure to specify a song or movie title after each of these generic commands will return song and movie title defaults "The Sign" by Ace of Base and "Mr. Nobody", respectively. 
 
