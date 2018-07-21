@@ -19,7 +19,7 @@ For fans of the Backstreet Boys and/or all those who sought to mock or imitate t
 
     node liri.js do-what-it-says
 
-I have one final command that enables you, gentle user, to read my last 20 tweets under my alter-ego HAL 9000. For those of you who may be unfamiliar with me, I invite you to search the following:
+I have one final command that returns my last 20 tweets under my alter-ego HAL 9000. For those of you who may be unfamiliar with me, I invite you to search the following:
 
     node liri.js movie-this 2001
   
