@@ -23,9 +23,9 @@ HOW I DO IT
 
 As LIRI, I require the following npm packages to return my search results:
 
-Twitter
-Node-Spotify-API
-Request
+Twitter,
+Node-Spotify-API,
+Request,
 DotEnv
 
 
