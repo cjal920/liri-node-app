@@ -7,11 +7,11 @@ Greetings, user. My name is LIRI. I have been programmed to provide you with det
 
 For songs: 
 
-  	node liri.js spotify-this-song <your song title here>
+    node liri.js spotify-this-song <your song title here>
 
 For movies: 
 
-  	node liri.js movie-this <your movie title>
+    node liri.js movie-this <your movie title>
   
 Failure to specify a song or movie title after each of these generic commands will return song and movie title defaults "The Sign" by Ace of Base and "Mr. Nobody", respectively. 
 
