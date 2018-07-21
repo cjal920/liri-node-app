@@ -33,7 +33,7 @@ Node-Spotify-API,
 Request,
 DotEnv
 
-Thank you for using LIRI.
+Thank you for using LIRI. And have a nice day.
 
 
 
