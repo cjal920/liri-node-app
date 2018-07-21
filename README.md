@@ -33,7 +33,7 @@ As LIRI, I require the following npm packages to return my search results:
     Request
     DotEnv
 
-Thank you for using LIRI. And have a nice day.
+Thank you for using LIRI. Have a nice day.
 
 
 
