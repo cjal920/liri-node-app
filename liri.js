@@ -55,7 +55,7 @@ for (var i = 4; i < nodeArgs.length; i++) {
 if (userSong) {
   spotify.search(
     {
-      type: 'track', query: userSong
+      type: "track", query: userSong
     }, function(songErr, songData) {
       if (songErr) {
         console.log("Something went wrong!");
